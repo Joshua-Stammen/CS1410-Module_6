@@ -6,6 +6,8 @@ int main()
  {
     //Define an array of 3 integers
     int age[SIZE];
+     //Declare and initialized an array of three members
+     int age2[SIZE] = {99,21,33};
 
      //Take input
      for(int  i= 0; i < SIZE; i++)
@@ -16,6 +18,7 @@ int main()
      for(int  i= 0; i < SIZE; i++)
      {
          cout<< " \nAge "<< i << " is " << age[i];
+         cout<< " \nAge2 "<< i << " is " << age2[i];
      }
 
      cout << "\nDone !" << endl;
